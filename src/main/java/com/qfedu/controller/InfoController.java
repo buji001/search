@@ -34,7 +34,7 @@ public class InfoController {
         type.setTid(typeId);
         info.setSearchType(type);
         infoService.addInfo(info);
-
+        int i = 1;
         return new JsonBean(1, null);
     }
 }
